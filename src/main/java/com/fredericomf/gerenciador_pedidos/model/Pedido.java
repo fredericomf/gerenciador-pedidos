@@ -47,4 +47,11 @@ public class Pedido {
         this.produtos = produtos;
     }
 
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "id=" + id +
+                ", data=" + data + "}";
+    }
+
 }
